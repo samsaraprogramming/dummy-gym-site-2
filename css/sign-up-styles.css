@@ -1,0 +1,260 @@
+html{
+  overflow-x: hidden;
+}
+  body{
+    font-family: "Montserrat", sans-serif;
+    background-color: #379237;
+    overflow-x: hidden;
+  }
+
+  .main-heading{
+    font-size: 2.5rem;
+    line-height: 1.5;
+    font-weight: 900;
+  }
+
+
+  /* Navigation Bar */
+
+  #title{
+    background-color: #379237;
+    color: #fff;
+  }
+
+  .navbar-container{
+    background-color: #141414;
+    position: fixed;
+    z-index: 20;
+    padding: 0;
+  }
+
+  .navbar{
+    padding: 0.5% 15%;
+    font-family: "Montserrat", sans-serif;
+    color: #06FF00;
+  }
+
+  .toxic-logo-nav{
+    width: 80px;
+  }
+
+  .navbar-brand{
+    font-size: 3.5rem;
+    font-weight: 900;
+    color: #06FF00;
+  }
+
+  .nav-toggler{
+    z-index:23;
+  }
+
+  .navbar-nav{
+    font-size:0.85rem;
+    font-weight:400;
+  }
+
+  .nav-icon{
+    font-size: 1.5rem;
+  }
+
+  .nav-item{
+    padding: 0 12px;
+  }
+
+  .nav-link{
+    color: #ffff;
+  }
+
+  .navbar-toggler{
+    background-color: #000000;
+  }
+
+  .navbar-brand-mobile{
+    display: none;
+    font-size: 3.5rem;
+    font-weight: 900;
+    color: #06FF00;
+    text-align: center;
+    line-height: 1.25;
+  }
+
+  .navbar-brand-mobile:link {
+       text-decoration: none;
+  }
+
+  .navbar-brand-mobile:visited {
+       text-decoration: none;
+  }
+
+  .navbar-brand-mobile:hover {
+       text-decoration: none;
+       color: #ffff;
+  }
+
+  .navbar-brand-mobile:active {
+       text-decoration: none;
+  }
+
+  .signup-form-heading-container{
+    text-align: center;
+    padding: 160px 5% 40px;
+    background-image: url('../images/toxix fitness texture_4.png');
+    background-size: cover;
+  }
+
+  .moto-heading{
+    color: #2192FF;
+    font-size: 6vw;
+    font-weight: 900;
+    text-align: center;
+  }
+
+  @media (max-width:1280px){
+    .nav-link-text{
+      display: none;
+    }
+  }
+
+  @media (max-width:991px){
+    .navbar{
+      justify-content: left;
+      padding: 2%;
+    }
+
+    .nav-link-text{
+      display: inline;
+    }
+
+    .toxic-logo-nav{
+      width: 15%;
+      margin-left: 2%;
+    }
+
+    .navbar-brand-mobile{
+      display: block;
+      font-size: 1rem;
+      width: 80%;
+    }
+
+    .navbar-brand{
+      font-size: 1rem;
+      display: none;
+    }
+
+    .navbar-toggler{
+      z-index:23;
+    }
+
+    .brand-text{
+      font-size: 6vw;
+    }
+
+    .signup-form-heading-container{
+      padding: 20% 3% 7.5%;
+    }
+
+
+    .moto-heading{
+      font-size: 8vw;
+    }
+
+
+  }
+
+
+
+
+  .sign-up-form-heading{
+    padding: 5% 15% 1%;
+    text-align: center;
+    background-color: #000000;
+  }
+
+
+
+
+
+  .toxic-logo{
+    width: 50%;
+  }
+
+  .mayhem-container{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 7.5% 0;
+  }
+
+  .mayhem-logo{
+    width: 60%;
+  }
+
+
+
+  .bottom-container{
+    background-color:#000000;
+    padding-top: 2%;
+    text-align: center;
+  }
+
+  .footer-menu{
+    padding: 0 30%;
+  }
+
+  .footer-column{
+    padding: 5% 3%;
+  }
+
+  .footer-link{
+    color: #2192FF;
+    font-family: 'Montserrat', sans-serif;
+    font-size: 0.85rem;
+    text-decoration: none;
+
+  }
+
+  @media (max-width:991px){
+    .footer-link span{
+      display: none;
+    }
+
+    .footer-menu{
+      padding: 0 35%;
+    }
+  }
+
+  .footer-link:hover{
+    color: #EAF6F6;
+  }
+
+  .copyright-text{
+    color: #EAF6F6;
+    font-size: 0.75rem;
+    padding: 20px 0;
+    margin: 0;
+  }
+
+  /* Sign-Up Section */
+
+
+
+  .sign-up-form{
+    padding: 5% 30% 5%;
+    background-color: #000000;
+  }
+
+
+  .form-label{
+    color: #ffffff;
+  }
+
+  #location{
+    text-align: left;
+    padding: 3% 0 8%;
+    background-color: #7FB77E;
+
+  }
+
+  .location-header{
+    padding-bottom: 2%;
+  }

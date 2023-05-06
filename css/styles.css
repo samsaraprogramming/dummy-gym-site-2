@@ -1,0 +1,415 @@
+html{
+  overflow-x: hidden;
+}
+
+body{
+  font-family: "Montserrat", sans-serif;
+  background-color: #ffffff;
+  overflow-x: hidden;
+  width: 100%;
+}
+
+.main-heading{
+  font-family: "Montserrat", sans-serif;
+  font-size: 2.5rem;
+  line-height: 1.5;
+  font-weight: 900;
+  padding-top: 5%;
+}
+
+/* Title Section Start */
+
+#title{
+  background-color: #5fc262;
+  color: #ffffff;
+}
+
+/* Navigation Bar */
+
+.navbar-container{
+  background-color: #141414;
+  position: fixed;
+  z-index: 20;
+  padding: 0;
+}
+
+.navbar{
+  padding: 0.5% 15%;
+  font-family: "Montserrat", sans-serif;
+  color: #06FF00;
+}
+
+.navbar-brand{
+  font-size: 3.5rem;
+  font-weight: 900;
+  color: #06FF00;
+}
+
+.nav-toggler{
+  z-index:23;
+}
+
+.toxic-logo-nav{
+  width: 80px;
+}
+
+.navbar-nav{
+  font-size:0.85rem;
+  font-weight:400;
+}
+
+.nav-icon{
+  font-size: 1.5rem;
+}
+
+.nav-item{
+  padding: 0 12px;
+}
+
+.nav-link{
+  color: #ffff;
+}
+
+.navbar-toggler{
+  background-color: #000000;
+}
+
+.navbar-brand-mobile{
+  display: none;
+  font-size: 3.5rem;
+  font-weight: 900;
+  color: #06FF00;
+  text-align: center;
+  line-height: 1.25;
+}
+
+.navbar-brand-mobile:link {
+     text-decoration: none;
+}
+
+.navbar-brand-mobile:visited {
+     text-decoration: none;
+}
+
+
+.navbar-brand-mobile:active {
+     text-decoration: none;
+}
+
+/* Heading */
+.heading-container{
+  position: relative;
+  padding: 220px 16% 110px;
+  z-index:10;
+  min-height: 500px;
+}
+.heading-container::before{
+  content: '';   
+  background-image: url(../images/murph_background.jpeg);
+  background-size: cover;
+  opacity: 0.8;
+  top: 0;
+  left: 0;
+  bottom: 0;
+  right: 0;
+  background-attachment: fixed;
+  background-position: center;
+  background-repeat: no-repeat;
+  position: absolute;
+  width: 100%;
+  height: 100%;
+  z-index: -1;   
+}
+
+
+
+.main-heading-container{
+  text-align: left;
+}
+
+@media (max-width:1280px){
+  .nav-link-text{
+    display: none;
+  }
+}
+
+@media (max-width:991px){
+
+  .nav-link-text{
+    display: inline;
+  }
+
+  .navbar{
+    justify-content: left;
+    padding: 2%;
+  }
+
+  .navbar-brand-mobile{
+    display: block;
+    font-size: 1rem;
+    width: 80%;
+  }
+
+  .navbar-brand{
+    font-size: 1rem;
+    display: none;
+  }
+
+  .main-heading-container{
+    text-align: center;
+  }
+
+  .heading-container{
+    padding: 12.5% 3% 7.5%;
+  }
+
+  .brand-text{
+    font-size: 6vw;
+
+  }
+
+  .toxic-logo-nav{
+    width: 15%;
+    margin-left: 2%;
+  }
+
+}
+
+.logo-container{
+  text-align: center;
+}
+
+
+/* Heading Image */
+.toxic-logo{
+  width: 285px;
+}
+
+/* Title Section End */
+
+
+/* Moto Section */
+#moto{
+  font-family: "Montserrat", sans-serif;
+  padding: 2% 15% 1%;
+  background-color: #000000;
+}
+
+.moto-heading{
+  font-family: "Montserrat", sans-serif;
+  font-weight: 900;
+  font-size: 2.0rem;
+  color: #2192FF;
+  border-style: solid;
+  border-color:#fff;
+  width: 200px;
+  margin: 0 auto 10px;
+  
+}
+
+
+.moto-heading-link{
+  text-decoration: none;
+}
+
+.moto-box{
+  text-align: center;
+  padding: 0 5%;
+
+}
+
+.moto-description{
+  color: #ffffff;
+  line-height: 1.5;
+}
+
+.moto-icon{
+  color: #9CFF2E;
+  margin-bottom: 1rem;
+}
+
+
+
+
+
+/* Testimonial Text */
+.title-wrap{
+  padding: 21% 0;
+  background-size: cover;
+}
+
+/* Testimonials */
+
+#testimonials{
+  /* padding: 7% 15%; */
+  text-align: center;
+  background-color: #7FB77E;
+  color: #fff;
+}
+
+.testimonial-image{
+  width: 100%;
+  height:auto;
+  transition: .5s ease;
+  backface-visibility: hidden;
+  /* border-radius: 100%; */
+  /* margin: 20px; */
+}
+
+.testimonial-text{
+  font-family: "Ubuntu";
+  font-weight: 400;
+  /* font-size: 1.5rem; */
+  padding-bottom: 1.5%;
+  color: #2192FF;
+}
+
+.carousel-item{
+  /* padding: 2% 0 0; */
+  /* text-align: center; */
+  background-size: cover;
+  background-position: top center;
+}
+
+/* .image-container{
+  transform: matrix(1, 0, 0, 1, 0, 0);
+}
+
+.image-container:hover{
+  transform: matrix(1.2, 0, 0, 1.2, 0, 0);
+} */
+
+
+
+
+.overlay-text{
+  color: #000000;
+  font-size: 16px;
+  padding: 16px 32px;
+  background-color: #06FF00;
+}
+
+#press{
+  background-color: #000000 ;
+  text-align: center;
+  padding: 3% 0 0;
+}
+
+
+.image-container{
+  background-color: #EAEAEA;
+
+}
+
+
+.bottom-container{
+  background-color:#000000;
+   padding-top: 2%;
+  text-align: center;
+}
+
+.footer-menu{
+  padding: 0 30%;
+}
+
+.footer-column{
+  padding: 5% 3%;
+}
+
+.footer-link{
+  color: #2192FF;
+  font-family: 'Montserrat', sans-serif;
+  font-size: 0.85rem;
+  text-decoration: none;
+
+}
+
+@media (max-width:991px){
+  .footer-link span{
+    display: none;
+  }
+
+  .footer-menu{
+    padding: 0 35%;
+  }
+
+  .navbar-nav{
+    padding-top: 2.5%;
+  }
+}
+
+
+
+.copyright-text{
+  color: #EAF6F6;
+  font-size: 0.75rem;
+  padding: 20px 0;
+  margin: 0;
+}
+
+/* Pricing Section */
+#pricing{
+  padding: 100px;
+  text-align: center;
+  background-color: #000000;
+}
+
+.pricing-header{
+  color: #2192FF;
+}
+
+.pricing-subheader{
+  color: #ffffff;
+}
+
+.pricing-col{
+  padding: 3% 2%;
+}
+
+.card-header{
+  background-color: #6c757d6e;
+}
+
+.month{
+  font-size: 1.25rem;
+}
+
+
+#location{
+  text-align: center;
+  padding: 3% 0 8%;
+  background-image: url('../images/toxix fitness texture_1.png');
+  color: #ffff;
+  background-size: cover;
+}
+
+.location-header{
+  padding-bottom: 2%;
+}
+
+iframe{
+  width: 85%;
+}
+
+@media(hover : hover){
+  .navbar-brand-mobile:hover {
+       text-decoration: none;
+       color: #ffff;
+  }
+
+  /* .moto-icon:hover{
+    color: #FFDE00;
+  } */
+
+  .moto-heading:hover{
+    color: #FFDE00;
+  }
+
+  .image-container:hover .testimonial-image{
+    opacity: 0.7;
+  }
+
+  .footer-link:hover{
+  color: #EAF6F6;
+}
+}
